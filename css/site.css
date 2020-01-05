@@ -1,0 +1,358 @@
+﻿/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+a {
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+body {
+    background: linear-gradient(180deg, #fff, #6273ac);
+    font-family: 'Tomorrow', sans-serif;
+}
+#column1 {
+    display: block;
+    float: left;
+    width: 15%;
+    margin-left: 5%;
+    margin-top: 5vh;
+}
+h1 {
+    font-size: 4.5vw;
+    font-weight: 700;
+    margin-top: 3.5%;
+}
+#column1 img{
+    margin-top: 1vw;
+    width: 100%;
+    height: auto;
+}
+img.thumbs {
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px; /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 150px; /* Set a small width */
+}
+
+img.thumbs:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+#column1 p{
+    font-size: 1.5vw;
+    margin-top: 2vh;
+    line-height: 2vw;
+}
+#column1 em{
+    font-weight: 400;
+    font-style: italic;
+}
+#wrapper {
+    width: 77%;
+    display: inline;
+    position: relative;
+    float: right;
+}
+header {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 0%;
+}
+
+nav {
+    display: inline-block;
+    width: 100%;
+    height: 4vw;
+    margin-left: 4.7%;
+    margin-top: 8%;
+    margin-bottom: 0%;
+    float: right;
+    background-color: #bababb;
+    font-weight: 500;
+}
+
+ul {
+    display: inline-block;
+    width: 28%;
+    margin-left: 67%;
+    margin-bottom: 0.5vh;
+    margin-top: 0.75vh;
+}
+
+li {
+    display: inline;
+    width: 25%;
+    height: 1vw;
+    float: left;
+    margin: 1vw 3%;
+    font-size: 1vw;
+    text-align: right;
+}
+img#divide {
+    float: left;
+    width: 3.2%;
+    height: 100%;
+    position: absolute;
+    top: 10.1vw;
+    left: 0%;
+}
+main {
+    float: right;
+    width: 96%;
+    padding-left: 1.5vw;
+    padding-bottom: 3vw;
+    font-size: 1.5vw;
+    line-height: 5.5vh;
+    color: #5a5a5a;
+}
+main img#side{
+    float: right;
+    width: 6.3%;
+    height:auto;
+    position: sticky;
+    top: 14vw;
+    right: 2%;
+}
+main img{
+    width: 90%;
+}
+main em{
+    font-style: italic;
+}
+#content article{
+    width: 85%;
+}
+h2{
+    font-size: 2.5vw;
+    margin: 1vw 0;
+    font-weight: 500;
+}
+h2 em{
+    font-weight: 400;
+}
+h3 {
+    font-size: 2vw;
+}
+dt{
+    font-size: 1.25vw;
+    line-height: 4vh;
+    display:inline;
+    margin-bottom: 3vw;
+}
+#content, article{
+    margin-top: 4vw;
+    margin-left: 2%;
+}
+h2.next, p.next{
+    clear: both;
+    width: 85%;
+}
+#gallery{
+    width: 100%;
+}
+#gallery img {
+    width: 100%;
+}
+iframe{
+    width: 90%;
+    height: 30vw;
+}
+.column2, .column3 {
+    float: left;
+}
+.column2{
+    width: 56%;
+}
+.column3{
+    width: 30%;
+    margin-left: 2%;
+}
+.column3 img{
+    width: 100%;
+    height: 100%;
+}
+p{
+    margin-bottom: 1.5vw;
+}
+section#game3{
+    display: inline-block;
+    margin-top: 3vw;
+}
+section#audio3{
+    display:inline-block;
+    width: 90%;
+}
+h2#game1{
+    clear: both;
+    width: 100%;
+}
+h2 a, h2 a:visited{
+    color: white;
+    text-decoration: underline;
+}
+footer {
+    clear: both;
+    float: left;
+    display: inline;
+    color: white;
+    width: 100%;
+    height: auto;
+    padding-top: 5vw;
+    padding-bottom: 5.5vw;
+    background-color: #1a2c62;
+    position: relative;
+}
+#aboutme {
+    display: inline-block;
+    width: 91.3%;
+    height: 76.01%;
+    margin: 0% 3.35%;
+}
+#aboutme img{
+    width: 15%;
+    height: auto;
+    float: left;
+}
+blockquote{
+    float:left;
+    display:inline-block; 
+    width: 46%;
+    font-size: 2vw;
+    margin-top: 1%;
+    padding: 2vh 3%;
+    line-height: 6vh;
+}
+blockquote em{
+    font-style: italic;
+}
+#info{
+    display:inline-block;
+    float: left;
+    width: 14%;
+    height: auto;
+    margin: 2% 1%;
+    line-height: 3vh;
+    padding: 3vh 1vw;
+}
+#info a{
+    color: white;
+    text-decoration: underline;
+}
+footer #aboutme img#botlogo{
+    float:left;
+    width: 10%;
+}
+footer p#copyright{
+    position: absolute;
+    bottom: 0.5vw;
+    left: 0%;
+}
+@media screen and (max-width: 1657px){
+    #column1 img {
+        margin-top: 1vw;
+        width: 100%;
+        height: auto;
+        padding: 0%;
+    }
+    img.watermark{
+        display: none;
+    }
+    nav {
+        display: inline-block;
+        width: 100%;
+        height: 6vw;
+        margin-left: 4.7%;
+        margin-top: 8%;
+        margin-bottom: 0%;
+        float: right;
+        background-color: #bababb;
+    }
+    ul {
+        display: inline-block;
+        width: 35%;
+        margin-left: 60%;
+        margin-top: 2vh;
+    }
+    li {
+        display: inline;
+        width: 25%;
+        height: 1vw;
+        float: left;
+        margin: 1vw 3%;
+        font-size: 1.25vw;
+        text-align: center;
+    }
+    img#divide {
+        float: left;
+        width: 3.2%;
+        height: 96.23%;
+        position: absolute;
+        top: 12.1vw;
+        left: 0%;
+    }
+    main {
+        float: right;
+        width: 96%;
+        padding-left: 1.5vw;
+        margin-top: 0%;
+    }
+    main img {
+        width: 97%;
+    }
+    footer p#copyright {
+        margin-bottom: 1vh;
+        position: absolute;
+        bottom: 0%;
+        left: 0%;
+    }
+}
